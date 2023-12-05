@@ -13,11 +13,11 @@ const tambahan = require("./lib/tambahan.js")
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'REUZ BOT☄'; 
-const instagram = 'https://instagram.com/reuz.id'; 
-const telegram = 'https://t.me/reuzzz'; 
+const BotName = 'Fafan_Botz'; 
+const instagram = 'https://www.instagram.com/fafanaqaqa/'; 
+const whatsapp = 'https://wa.me/6285771114727'; 
 const kapanbotaktif = 'KETIKA HANYA DIAKTIFKAN'; 
-const youtube = 'https://www.youtube.com/c/reuz_id';
+const youtube = 'https://youtube.com/@Fafan_GesS?si=D6GlHVAPoHw7TQ9z';
 //const grupch1 = 'belum ada grup'; 
 //const grupch2 = 'belum ada grup' ; 
 const
@@ -64,7 +64,7 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('Bot by ig:@reuz.id')
+conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('Bot by ig:@fafanaqaqa')
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
